@@ -10,6 +10,21 @@
       "static/chunks/main-app.js",
       "static/css/css-app_globals_css-node_modules_pnpm_next_14_2_1_react-dom_18_2_0_react_18_2_0_node_modules_-36303a.css",
       "static/chunks/app/layout.js"
+    ],
+    "/duvidas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/duvidas/page.js"
+    ],
+    "/sobre/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/sobre/page.js"
+    ],
+    "/mapa/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/mapa/page.js"
     ]
   }
 }
