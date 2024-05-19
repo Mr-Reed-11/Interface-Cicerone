@@ -2,7 +2,7 @@ import { Cog8ToothIcon } from "@heroicons/react/24/outline";
 
 export default function Header() {
   return (
-    <div className=" bg-white w-screen grid grid-cols-3 py-4 px-10 drop-shadow fixed z-10">
+    <div className=" bg-white w-screen grid grid-cols-3 py-4 px-10 drop-shadow fixed z-20">
       <div className="justify-self-start content-center col-span-2 sm:col-span-1">
         <img src="images/logo-cicerone.png" className="w-[170px] sm:w-[200px] lg:w-[250px]"></img>
       </div>

@@ -192,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "f35f8e6f96bca978"; }
+/******/ 		__webpack_require__.h = function() { return "98195b4c0bb2826f"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -842,7 +842,7 @@
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(/^(app(\/(((duvidas|mapa|sobre)\/|)page|layout)|\-pages\-internals)|main\-app)$/.test(chunkId)) {
+/******/ 						if(/^(app(\/((|mapa\/)page|layout)|\-pages\-internals)|main\-app)$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise(function(resolve, reject) { installedChunkData = installedChunks[chunkId] = [resolve, reject]; });
 /******/ 							promises.push(installedChunkData[2] = promise);
