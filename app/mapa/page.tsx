@@ -106,7 +106,7 @@ export default function AboutPage() {
               ) : finish ? (
                 <div className="flex flex-col items-center justify-center min-h-screen">
                   <ChatBot
-                    chatText="Chegamos ao destino, obrigado por usar o sistema de Guia Autônomo da Instituição, caso queira algum outro guia estarei disponivel na minha estação."
+                    chatText="Chegamos ao destino, obrigado por usar o sistema de Guia Autônomo da Instituição, caso precise de algum outro guia, estarei disponível na minha estação."
                     style2={false}
                   ></ChatBot>
                 </div>
