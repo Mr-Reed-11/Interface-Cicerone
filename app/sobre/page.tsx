@@ -17,7 +17,7 @@ export default function AboutPage() {
       <div>
         <Body>
           <div className="flex flex-col items-center justify-center min-h-screen">
-            <ChatBot chatText={text} />
+            <ChatBot chatText={text} style2={false} />
             <div className="grid grid-cols-1 w-[1000px] justify-items-center">
               <ButtonGreen onClick={() => ""} href="/">
                 Voltar
